@@ -260,11 +260,16 @@ ol {
 
 .pages_card {
     width: 387px;
-    height: 315px;
+    /* height: 315px; */
     opacity: 1;
     border: 1px solid #4B4136;
     gap: 20px;
+    padding: 40px;
     margin-top: 20px;
+}
+
+.pages_card img{
+    width: 100%;
 }
 
 .pages_card_desc {
@@ -424,18 +429,15 @@ ol {
 @media screen and (max-width: 400px) {
     .pages_card {
         width: 300px;
-        height: 270px;
     }
     .pages_card img{
         width: 290px;
-        height: 230px;
     }
 }
 
 @media screen and (max-width: 840px) {
     .pages_card {
         width: 360px;
-        height: 310px;
     }
     .pages_card img{
         width: 100%;
@@ -445,7 +447,6 @@ ol {
 @media screen and (max-width: 890px) {
     .pages_card {
         width: 400px;
-        height: 350px;
     }
     .pages_card img{
         width: 100%;
@@ -455,7 +456,6 @@ ol {
 @media screen and (max-width: 1220px) {
     .pages_card {
         width: 500px;
-        height: 400px;
     }
     .pages_card img{
         width: 100%;
@@ -465,7 +465,7 @@ ol {
 @media screen and (max-width: 1080px) {
     .pages_card {
         width: 450px;
-        height: 350px;
+        /* height: 350px; */
     }
     .pages_card img{
         width: 100%;
@@ -475,7 +475,7 @@ ol {
 @media screen and (max-width: 960px) {
     .pages_card {
         width: 400px;
-        height: 310px;
+        /* height: 310px; */
     }
     .pages_card img{
         width: 100%;
@@ -485,7 +485,7 @@ ol {
 @media screen and (max-width: 850px) {
     .pages_card {
         width: 330px;
-        height: 210px;
+        /* height: 210px; */
     }
     .pages_card img{
         width: 100%;
@@ -495,7 +495,7 @@ ol {
 @media screen and (max-width: 720px) {
     .pages_card {
         width: 300px;
-        height: 210px;
+        /* height: 210px; */
     }
     .pages_card img{
         width: 100%;
@@ -505,7 +505,7 @@ ol {
 @media screen and (max-width: 655px) {
     .pages_card {
         width: 280px;
-        height: 210px;
+        /* height: 210px; */
     }
     .pages_card img{
         width: 100%;
@@ -515,7 +515,7 @@ ol {
 @media screen and (max-width: 615px) {
     .pages_card {
         width: 260px;
-        height: 210px;
+        /* height: 210px; */
     }
     .pages_card img{
         width: 100%;
@@ -525,7 +525,7 @@ ol {
 @media screen and (max-width: 577px) {
     .pages_card {
         width: 240px;
-        height: 210px;
+        /* height: 210px; */
     }
     .pages_card img{
         width: 100%;
@@ -534,13 +534,13 @@ ol {
 
 @media screen and (max-width: 530px) {
     .pages_card {
-        width: 100px;
-        height: 210px;
+        width: 100%;
     }
     .pages_card img{
         width: 100%;
     }
 }
+
 
 .footer {
     display: flex;
